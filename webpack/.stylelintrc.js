@@ -9,14 +9,12 @@
  */
 
 module.exports = {
-    plugins: [
-        "stylelint-scss"
-    ],
-    rules:   {
-        "max-line-length":         180,
-        "no-empty-source":         null,
-        "indentation":             2,
-        "at-rule-no-unknown":      null,
-        "scss/at-rule-no-unknown": true,
-    },
-}
+	plugins: ['stylelint-scss'],
+	rules: {
+		'max-line-length': 180,
+		'no-empty-source': null,
+		indentation: 4,
+		'at-rule-no-unknown': null,
+		'scss/at-rule-no-unknown': true,
+	},
+};

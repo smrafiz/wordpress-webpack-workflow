@@ -10,3 +10,4 @@ import '../sass/backend.scss';
 /**
  * Add here your JavasScript code
  */
+console.log('Backend');
